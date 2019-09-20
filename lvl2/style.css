@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0px auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    background-color: #445162;
+    height: 273px;
+    padding-top: 50px;
+}
+
+.div-header {
+    float: left;
+    margin-left: 50px;
+    width: 458px;
+    height: 218px;
+}
+
+h2 {
+    color: #445161;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+h1 {
+    /* Style for "Scrinshots" */
+    height: 44px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 51px;
+}
+
+p {
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section .h2 {
+    color: #445161;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+header ul li {
+    /* Style for "Put on thi" */
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    list-style-type: none;
+    /* Убираем маркеры у списка */
+}
+
+header ul {
+    height: 127px;
+    margin-left: 37px;
+    list-style-image: url(icon/check_icon.png);
+    /* Путь к изображению маркера */
+}
+
+header img {
+    margin-left: 253px;
+}
+
+.article-about h2 {
+    margin-bottom: 30px;
+}
+
+.article-about p {
+    margin-bottom: 20px;
+}
+
+.article-about {
+    float: left;
+    width: 653px;
+    height: 201px;
+}
+
+.about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px
+}
+
+.about img {
+    margin-left: 91px;
+}
+
+.pluses {
+    padding-top: 49px;
+    background-color: #f5f5f5;
+}
+
+.pluses h2 {
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.pluses ul li {
+    list-style: none;
+    padding-left: 41px;
+    background: transparent url(icon/3-layers.jpg) no-repeat left top;
+    min-height: 32px;
+}
+
+.pluses li {
+    margin-bottom: 35px;
+    /* Style for "Delectus d" */
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pluses-column-left {
+    float: left;
+    width: 567px;
+    margin-left: 50px;
+}
+
+.pluses-column-right {
+    float: left;
+    width: 567px;
+    margin-left: 30px;
+}
+
+.screenshots img {
+    float: left;
+    margin-right: 15px;
+}
+.reviews h2,
+.screenshots h2 {
+    text-align: center;
+    margin-bottom: 34px;
+    margin-top: 51px;
+}
+
+.screenshots h3 {
+    /* Style for "The descri" */
+    width: 310px;
+    height: 23px;
+    color: #445161;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.screenshots section {
+    float: left;
+    width: 349px;
+    margin-bottom: 30px;
+}
+.screenshots p {
+        color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.screen-div-1,
+.screen-div-2,
+.screen-div-3,
+.screen-div-4 {
+    width: 574px;    
+}
+
+.screen-column1,
+.screen-column2{
+    float: left;
+}
+.screen-column2{
+    margin-left: 26px;
+}
+.screen-column1{
+    margin-left: 50px;
+}
